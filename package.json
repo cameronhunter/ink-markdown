@@ -22,7 +22,8 @@
     "build": "tsc",
     "format": "prettier --write ./**/*.{js,json,md,ts,tsx}",
     "test": "jest",
-    "preversion": "yarn build"
+    "preversion": "yarn build",
+    "demo": "ts-node --transpile-only ./demo/index.tsx"
   },
   "files": [
     "./build"
@@ -37,6 +38,7 @@
     "@types/marked": "^0.7.2",
     "@types/marked-terminal": "^3.1.1",
     "@types/react": "^16.9.17",
+    "dedent": "^0.7.0",
     "ink": "^2.6.0",
     "ink-testing-library": "^1.0.3",
     "jest": "^24.9.0",
@@ -44,6 +46,7 @@
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
