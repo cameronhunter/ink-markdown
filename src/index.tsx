@@ -9,5 +9,5 @@ type Props = TerminalRendererOptions & {
 
 export default function Markdown({ children, ...options }: Props) {
   marked.setOptions({ renderer: new TerminalRenderer(options) });
-  return <Text>{marked(children.trim())}</Text>;
+  return <Text>{marked(children).trim()}</Text>;
 }
