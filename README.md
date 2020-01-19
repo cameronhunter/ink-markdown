@@ -1,4 +1,4 @@
-# ink-markdown [![Build Status](https://travis-ci.org/cameronhunter/ink-markdown.svg?branch=master)](https://travis-ci.org/cameronhunter/ink-markdown)
+# ink-markdown [![Actions Status](https://github.com/cameronhunter/ink-markdown/workflows/Test/badge.svg)](https://github.com/cameronhunter/ink-markdown/actions)
 
 > Render markdown text using [Ink](https://github.com/vadimdemedes/ink)
 
