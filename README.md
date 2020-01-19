@@ -20,7 +20,7 @@ $ yarn add ink-markdown
 import React from 'react';
 import { render } from 'ink';
 import Markdown from 'ink-markdown';
-import dedent from dedent;
+import dedent from 'dedent';
 
 const markdown = dedent`
   # Hello
