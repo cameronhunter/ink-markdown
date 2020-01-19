@@ -2,6 +2,8 @@
 
 > Render markdown text using [Ink](https://github.com/vadimdemedes/ink)
 
+![Screenshot of ink-markdown](screenshot.png)
+
 ## Install
 
 ```
@@ -18,13 +20,12 @@ $ yarn add ink-markdown
 import React from 'react';
 import { render } from 'ink';
 import Markdown from 'ink-markdown';
+import dedent from dedent;
 
-const markdown = `
-  # Title
+const markdown = dedent`
+  # Hello
 
-  - Bullet point #1
-  - Bullet point #2
-  - Bullet point #3
+  This is **markdown** printed in the \`terminal\`
 `;
 
 render(<Markdown>{markdown}</Markdown>);
