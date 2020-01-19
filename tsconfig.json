@@ -1,0 +1,13 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "ES2015",
+    "outDir": "./build",
+    "skipLibCheck": true
+  }
+}
