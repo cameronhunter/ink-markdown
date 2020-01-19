@@ -12,12 +12,5 @@ test('Renders markdown', () => {
 
   const { lastFrame } = render(<Markdown>{markdown}</Markdown>);
 
-  expect(lastFrame()).toMatchInlineSnapshot(`
-    "[35m[4m[1m# Title[22m[24m[39m
-
-        [33m  - This is a markdown bullet point[39m
-        [33m  - This is a [link](http://cameronhunter.co.uk)[39m
-
-    "
-  `);
+  expect(lastFrame()).toMatchSnapshot();
 });
