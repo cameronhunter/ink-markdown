@@ -33,6 +33,7 @@
     "marked-terminal": "^4.0.0"
   },
   "devDependencies": {
+    "@types/dedent": "^0.7.0",
     "@types/ink-testing-library": "^1.0.1",
     "@types/jest": "^24.9.0",
     "@types/marked": "^0.7.2",

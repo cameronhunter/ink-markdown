@@ -1,13 +1,13 @@
 import Markdown from '../src/index';
 import React from 'react';
+import dedent from 'dedent';
 import { render } from 'ink-testing-library';
 
 test('Renders markdown', () => {
-  const markdown = `
-      # Title
+  const markdown = dedent`
+    # Hello
 
-      - This is a markdown bullet point
-      - This is a [link](http://cameronhunter.co.uk)
+    This is **markdown** printed in the \`terminal\`
   `;
 
   const { lastFrame } = render(<Markdown>{markdown}</Markdown>);
