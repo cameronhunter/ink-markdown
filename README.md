@@ -16,7 +16,7 @@ $ yarn add ink-markdown
 
 ```js
 import React from 'react';
-import { render, Color } from 'ink';
+import { render } from 'ink';
 import Markdown from 'ink-markdown';
 
 const markdown = `
