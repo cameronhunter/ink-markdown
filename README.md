@@ -22,13 +22,13 @@ import { render } from 'ink';
 import Markdown from 'ink-markdown';
 import dedent from 'dedent';
 
-const markdown = dedent`
+const text = dedent`
   # Hello
 
   This is **markdown** printed in the \`terminal\`
 `;
 
-render(<Markdown>{markdown}</Markdown>);
+render(<Markdown>{text}</Markdown>);
 ```
 
 ## API
