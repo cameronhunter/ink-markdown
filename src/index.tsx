@@ -1,5 +1,5 @@
 import React from 'react';
-import marked from 'marked';
+import {parse, setOptions} from 'marked';
 import { Text } from 'ink';
 import TerminalRenderer, { TerminalRendererOptions } from 'marked-terminal';
 
@@ -8,6 +8,6 @@ type Props = TerminalRendererOptions & {
 };
 
 export default function Markdown({ children, ...options }: Props) {
-  marked.setOptions({ renderer: new TerminalRenderer(options) });
-  return <Text>{marked.parse(children).trim()}</Text>;
+  setOptions({ renderer: new TerminalRenderer(options) });
+  return <Text>{parse(children).trim()}</Text>;
 }
