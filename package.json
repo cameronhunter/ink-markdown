@@ -1,6 +1,6 @@
 {
   "name": "ink-markdown",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Render markdown text using Ink",
   "main": "./build/index.js",
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
