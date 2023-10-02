@@ -1,6 +1,6 @@
 {
   "name": "ink-markdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Render markdown text using Ink",
   "main": "./build/index.js",
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
@@ -29,9 +29,9 @@
     "./build"
   ],
   "dependencies": {
+    "@types/marked-terminal": "^3.1.4",
     "marked": "^9.0.3",
-    "marked-terminal": "^6.0.0",
-    "@types/marked-terminal": "^3.1.4"
+    "marked-terminal": "^6.0.0"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",
