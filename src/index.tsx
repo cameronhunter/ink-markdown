@@ -3,7 +3,7 @@ import {parse, setOptions} from 'marked';
 import { Text } from 'ink';
 import TerminalRenderer, { TerminalRendererOptions } from 'marked-terminal';
 
-type Props = TerminalRendererOptions & {
+export type Props = TerminalRendererOptions & {
   children: string;
 };
 
