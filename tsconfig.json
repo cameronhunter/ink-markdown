@@ -10,7 +10,7 @@
     "declaration": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "module": "commonjs",
+    "module": "nodenext",
     "target": "ES2022",
     "outDir": "./build",
     "skipLibCheck": true
