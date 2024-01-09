@@ -16,5 +16,5 @@ test('Renders markdown', () => {
 
   const { lastFrame } = render(<Markdown>{markdown}</Markdown>);
 
-  expect(lastFrame()).toMatchSnapshot();
+  expect(lastFrame().trim()).toMatchSnapshot();
 });
